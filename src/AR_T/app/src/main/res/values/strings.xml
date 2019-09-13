@@ -1,0 +1,265 @@
+<resources>
+    <string name="app_name">AR-T</string>
+
+    <!-- LOGIN & SIGN-UP STRINGS -->
+    <string name="login">Log in</string>
+    <string name="studentPassword">Password</string>
+    <string name="no_account">No account yet? Create one</string>
+    <string name="studentEmail">Email</string>
+    <string name="name">Name</string>
+    <string name="create_account">Sign Up</string>
+    <string name="already_a_member">Already a member? Login</string>
+    <string name="re_enter_password">Re-enter Password</string>
+    <string name="login_failure">Could not connect to server</string>
+    <string name="register_success">Registration Successful</string>
+    <string name="register_fail">Registration Failed</string>
+
+    <!-- Navigation Drawer -->
+    <string name="my_profile">My Profile</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="settings">Settings</string>
+    <string name="logout">Logout</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <!-- Preferences -->
+    <string name="shared_pref">SharedPreferences</string>
+    <string name="pref_login_status">login_status</string>
+    <string name="user_profile">User Profile</string>
+    <string name="ar_topics">Your AR Models</string>
+    <string name="augmented_images">Augmented Images</string>
+    <string name="user_profile_image">User Profile Image</string>
+    <string name="emailinprofile">E-Mail</string>
+    <string name="cardviewleft">Activities Completed</string>
+    <string name="defaultlandmarksvisited">0</string>
+    <string name="cardviewright">Percent Completed</string>
+    <string name="defaultaveragerating">0.00</string>
+    <string name="invalid_email">Invalid email address</string>
+    <string name="invalid_password">Invalid password</string>
+    <string name="invalid_name">Invalid name</string>
+    <string name="userType">User Type</string>
+
+    <string-array name="options">
+        <item>Teacher</item>
+        <item>Student</item>
+    </string-array>
+
+    <!-- Classroom -->
+    <string name="classId">Class Id (4 numbers)</string>
+    <string name="className">Class Name</string>
+    <string name="class_failed">Failed to create class</string>
+    <string name="class_created">Class created successfully</string>
+    <string name="classroom">Classroom</string>
+    <string name="enter_class_id_provided_by_teacher">Enter Class Id</string>
+    <string name="invalid_class_id">Invalid Class Id</string>
+    <string name="fetch_classes_failed">Failed to fetch classes</string>
+    <string name="fetch_students_failed">Failed to fetch students</string>
+    <string name="fetch_assignments_failed">Failed to fetch assignments</string>
+    <string name="assignmentName">Assignment title</string>
+    <string name="assignmentDesc">Assignment description</string>
+    <string name="create_assignments_success">Assignment created successfully</string>
+    <string name="create_assignments_failed">Failed to create assignment</string>
+    <string name="title_activity_assignment">AssignmentActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="tab_text_1">Instructions</string>
+    <string name="tab_text_2">Students Work</string>
+    <string name="title_activity_assignment_submission">AssignmentSubmissionActivity</string>
+    <string name="submit">Submit</string>
+    <string name="add_attachment">Add attachment</string>
+    <string name="submission_successful">Assignment submitted successfully</string>
+    <string name="submission_failed">Assignment submission failed</string>
+    <string name="choose_image">Please choose an image for upload</string>
+    <string name="assignment_submissions_failed">Failed to get assignment submissions</string>
+    <string name="percent">%</string>
+    <string name="submit_grade">Submit grade</string>
+    <string name="grade_added">Assignment has been graded successfully</string>
+    <string name="grade_failed">Failed to grade assignment</string>
+    <string name="assignment_shared_pref">AssignmentSharedPref</string>
+
+    <!-- AR STRINGS -->
+    <string name="anchor_failed">Failed to retrieve anchor</string>
+    <string name="anchor_add_failed">Failed to create anchor</string>
+    <string name="models_failed">Failed to fetch models</string>
+    <string name="resolve_anchor_toast">Resolve anchor, no model chosen...</string>
+    <string name="load_renderable_failed">Unable to load renderable</string>
+    <string name="resolving_anchor">Now Resolving Anchor...</string>
+    <string name="hosting_anchor">Now hosting anchor...</string>
+    <string name="no_anchor">No anchor to host, Please create an anchor...</string>
+    <string name="error_hosting_anchor">Error hosting anchor..</string>
+    <string name="error_resolving_anchor">Error resolving anchor..</string>
+    <string name="resolved_success">Anchor resolved successfully</string>
+    <string name="anchor_hosted_id">Anchor hosted with id:</string>
+    <string name="animated_learning">AR Lessons</string>
+    <string name="please_resolve">Model still downloading....</string>
+    <string name="anchor_id">Anchor ID:</string>
+    <string name="ar_topics_title">Your 3D Models</string>
+    <string name="ar_animations">AR Lessons</string>
+    <string name="settings_title">Settings</string>
+    <string name="assignment_submission">Assignment Submission</string>
+    <string name="assignment">Assignment</string>
+    <string name="first_run">first run</string>
+    <string name="persistent_preferences">persistentPrefs</string>
+    <string name="main_sequence">main sequence</string>
+    <string name="slider1title">View your own 3D models</string>
+    <string name="slider1desc">Upload your own models to the app using the web application and view them in augmented reality.</string>
+    <string name="slider2title">Interact with animated AR lessons</string>
+    <string name="slider2desc">There are lessons included in the app for students to interact with in helping them learn the basics in 3D object representation. Tou can carry out these lessons anywhere</string>
+    <string name="slider3title">Share with the class</string>
+    <string name="slider3desdc">You can host your models on the cloud and give the class a unique key to share the AR experience with you</string>
+    <string name="update_grade">Update Grade</string>
+    <string name="augmented_images_desc">Use this feature with the AR enabled images in your textbook to creat an immersive experience. Use the camera to augment images in the book and watch them come to life.</string>
+    <string name="tap_to_detect">Tap on a detected surface to start lesson</string>
+    <string name="tap_to_continue">Tap to continue</string>
+    <string name="start">Start</string>
+    <string name="lesson_complete">Lesson Completed!</string>
+    <string name="lesson_complete_desc">Congrats...you\'re ready to move onto the next lesson!</string>
+    <string name="anchor_resolved_id">Anchor Resolved with id:</string>
+    <string name="failed_login">Failed to log in</string>
+    <string name="class_id">Class Id:</string>
+
+    <string name="take_photo">take photo</string>
+    <string name="fit_image_to_scan">fit image to scan</string>
+    <string name="bookmark">bookmark</string>
+    <string name="toolbar_image">toolbar image</string>
+    <string name="topic_image">topic image</string>
+    <string name="control_height">Control Height:</string>
+    <string name="control_positon">Control Position:</string>
+    <string name="control_rotation">Control Rotation:</string>
+    <string name="due_date">Due Date</string>
+    <string name="assigneddate">Date assigned</string>
+
+    <!-- THEME STRINGS -->
+    <string name="choose_theme">Choose Theme</string>
+    <string name="blue_theme">Blue Theme</string>
+    <string name="orange_theme">Orange Theme</string>
+    <string name="pink_theme">Pink Theme</string>
+    <string name="black_theme">Black Theme</string>
+    <string name="mint_theme">Mint Theme</string>
+
+    <!-- AR LESSON STRINGS -->
+    <string name="conic_section">Conic Section</string>
+    <string name="conic_section_desc">When a cutting plane passes through a cone then the shape exposed by making the cut can be a number of different sections.</string>
+    <string name="conic_section_desc2">A horizontal section will create a circle.</string>
+    <string name="conic_section_desc3">A plane cutting the cone parallel to the edge will create a parabola.</string>
+    <string name="conic_section_desc_4">A plane cutting the cone less than parallel to the edge will create an elipse.</string>
+    <string name="conic_section_desc_5">A plane cutting the cone greater than parallel to the edge will create an hyperbola.</string>
+
+    <string name="circle_section">Circle Section</string>
+    <string name="ellipse_section">Ellipse section</string>
+    <string name="parabola_section">Parabola section</string>
+    <string name="hyperbola_section">Hyperbola section</string>
+
+    <string name="cube">Cube</string>
+    <string name="cube_desc_1">a cube is a three-dimensional solid object bounded by six square faces, facets or sides, with three meeting at each vertex.</string>
+    <string name="cube_desc_2">Here is an example of a simple cube.</string>
+    <string name="cube_desc3">This cube can be unfolded along its edges to make a flat shape.</string>
+    <string name="cube_dev">Cube Development</string>
+    <string name="cube_dev_desc">This is a development of a cube when it is folded out onto its faces</string>
+    <string name="cube_dev_desc_2">This development can be folded back up to give us the original cube...</string>
+
+    <string name="first_fold">First Fold</string>
+    <string name="second_fold">Second Fold</string>
+
+    <string name="cuboid">Cuboid</string>
+    <string name="cuboid_desc">A cuboid is a polyhedron bounded by 6 quadrilateral faces.</string>
+    <string name="cuboid_desc_2">Here is an example of a simple cuboid.</string>
+    <string name="cuboid_desc_3">This cuboid can be unfolded along its edges to make a flat shape.</string>
+
+    <string name="cuboid_dev">Cuboid Development</string>
+    <string name="cuboid_dev_desc">This is a development of a cuboid when it is folded out onto its faces</string>
+    <string name="cuboid_dev_desc_2">This development can be folded back up to give us the original cuboid...</string>
+
+    <string name="cross_section">Cross Section</string>
+    <string name="cross_section_desc">A cross section is the shape we get when cutting straight through an object.</string>
+    <string name="cross_section_desc_2">This example shows a plane cutting a cuboid creating a cross section. What shape will the section be?...</string>
+    <string name="cross_section_desc_3">The section will be a cube as it the cutting plane is parallel to the end face</string>
+    <string name="use_slider_to_cut">Use slider to decide where to cut the plane</string>
+
+    <string name="parallel_planes">Parallel Planes</string>
+    <string name="parallel_planes_desc">Two planes that will never meet are said to be parallel to eachother.</string>
+    <string name="parallel_planes_desc_2">These two planes are an example of parallel planes.</string>
+    <string name="parallel_planes_desc_3">A plane may be parallel to more than just one other plane.</string>
+
+    <string name="top_plane">Top Plane</string>
+    <string name="middle_plane">Middle Plane</string>
+    <string name="bottom_plane">Bottom Plane</string>
+
+    <string name="plane">What is a plane?</string>
+    <string name="plane_desc">A plane is a flat 2-D surface which extends infinitely far</string>
+
+    <string name="horizontal_plane">Horizontal Plane</string>
+    <string name="horiz_plane_desc">A horizontal plane is a plane which is parallel to the horizontal</string>
+    <string name="horiz_plane_desc_2">A horizontal plane has certain rules about how it can move...</string>
+
+    <string name="vertical_plane">Vertical Plane</string>
+    <string name="vert_plane_desc">A vertical plane is a plane which is perpendiculat to the horizontal (90 degrees)</string>
+
+    <string name="intersecting_planes">Intersecting Planes</string>
+    <string name="intersecting_planes_desc">Two planes that meet and pass through eachother are said to be intersecting.</string>
+    <string name="intersecting_planes_desc_2">Here is an example of two intersecting planes...</string>
+    <string name="intersecting_planes_desc_3">Notice how the two planes intersect at a line...</string>
+    <string name="intersecting_planes_desc_4">Now lets move the two planes and notice how they always intersect at a line...</string>
+
+    <string name="move_vert_plane">Move vertical plane</string>
+    <string name="move_horiz_plane">Move horizontal plane</string>
+
+    <string name="cylinder_section">Cylinder Section</string>
+    <string name="cylinder_section_desc">A cutting plane passing through a cylinder can create a number of different sections.</string>
+
+    <string name="horiz_section">Horizontal Section</string>
+    <string name="horiz_section_desc">A horizontal cutting plane will create a circle section.</string>
+
+    <string name="vert_section">Vertical Section</string>
+    <string name="vert_section_desc">A vertical cutting plane will create a rectangular section.</string>
+
+    <string name="angle_section">Angle Section</string>
+    <string name="angle_section_desc">A plane cutting a cylinder at an angle will create an ellipse.</string>
+
+    <string name="section_circle">Section: Circle</string>
+    <string name="section_rectangle">Section: Rectangle</string>
+    <string name="section_ellipse">Section: Ellipse</string>
+
+    <string name="solid_geo">Solid Geometry</string>
+    <string name="solid_geo_desc">Solid Geometry is the geometry of 3-D space and it is the basis for 3-D techncal drawing.</string>
+    <string name="geometric_solids">Geometric Solids</string>
+    <string name="geometric_solids_desc">Geometric solids are 3-D shapes, which means they have width, depth and height.</string>
+    <string name="polyhedra_solids">Polyhedra Solids</string>
+    <string name="polyhedra_desc">Geometric solids which must have flat edges. Here are some examples...</string>
+    <string name="octahedron">Octahedron</string>
+    <string name="pyramid">Pyramid</string>
+    <string name="non_polyhedra">Non-Polyhedra</string>
+    <string name="non_polyhedra_desc">Geometric solids where one or more of their surfaces are not flat. Here are some examples...</string>
+    <string name="cone">Cone</string>
+    <string name="sphere">Sphere</string>
+    <string name="cylinder">Cylinder</string>
+
+    <string name="angle_between_planes">Angle Between Planes</string>
+    <string name="angle_between_planes_desc">Two planes that meet form an angle of intersection.</string>
+    <string name="acute_angle">Acute Angle</string>
+    <string name="acute_angle_desc">An acute angle is less than 90°.</string>
+    <string name="right_angle">Right Angle</string>
+    <string name="right_angle_desc">A right angle is 90°.</string>
+    <string name="obtuse_angle">Obtuse Angle</string>
+    <string name="obtuse_angle_desc">An obtuse angle is more than 90° and less than 180°.</string>
+    <string name="reflex_angle">Reflex Angle</string>
+    <string name="reflex_angle_desc">A reflex angle is an angle that is more than 180°.</string>
+    <string name="control_angle">Control Angle</string>
+    <string name="straight_angle">Straight angle</string>
+    <string name="compledLessons">Lessons Completed</string>
+    <string name="assignmentsCompleted">Assignments Completed</string>
+    <string name="title_activity_student_progress">StudentProgressActivity</string>
+    <string name="redo">Redo</string>
+    <string name="quizzes">Quizzes</string>
+
+    <string name="tap_to_start_quiz">Tap on a detected surface to start quiz</string>
+    <string name="quiz_complete">Quiz finished!</string>
+    <string name="quizzes_completed">Quizzes Completed</string>
+    <string name="date_assigned">Date Assigned -</string>
+    <string name="date_due">Date Due -</string>
+    <string name="assigned_tv">ASSIGNED</string>
+    <string name="your_work">Your Work</string>
+    <string name="submitted">SUBMITTED</string>
+    <string name="graded">GRADED</string>
+    <string name="resolving_model">Still resolving model...</string>
+
+</resources>

@@ -1,0 +1,77 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="preferenceTheme">@style/PreferenceThemeOverlay.v14.Material</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorButtonNormal">@color/colorPrimary</item>
+        <item name="themeColorBackground">@color/colorPrimary</item>
+    </style>
+
+    <style name="RedTheme" parent="AppTheme">
+        <item name="colorPrimary">@color/red_btn_bg_color</item>
+        <item name="colorPrimaryDark">@color/red_btn_bg_pressed_color</item>
+        <item name="colorAccent">@color/colorOrange</item>
+        <item name="colorButtonNormal">@color/red_btn_bg_pressed_color</item>
+        <item name="themeColorBackground">@color/colorOrange</item>
+    </style>
+
+    <style name="PinkTheme" parent="AppTheme">
+        <item name="colorPrimary">@color/pinkPrimary</item>
+        <item name="colorPrimaryDark">@color/pinkDark</item>
+        <item name="colorAccent">@color/pinkAccent</item>
+        <item name="colorButtonNormal">@color/pinkPrimary</item>
+        <item name="themeColorBackground">@color/pinkPrimary</item>
+    </style>
+
+    <style name="BlackTheme" parent="AppTheme">
+        <item name="colorPrimary">@color/blackPrimary</item>
+        <item name="colorPrimaryDark">@color/black</item>
+        <item name="colorAccent">@color/blackAccent</item>
+        <item name="colorButtonNormal">@color/blackPrimary</item>
+        <item name="themeColorBackground">@color/blackPrimary</item>
+    </style>
+
+    <style name="MintTheme" parent="AppTheme">
+        <item name="colorPrimary">@color/mintPrimary</item>
+        <item name="colorPrimaryDark">@color/mintDark</item>
+        <item name="colorAccent">@color/mintAccent</item>
+        <item name="colorButtonNormal">@color/mintPrimary</item>
+        <item name="themeColorBackground">@color/mintDark</item>
+    </style>
+
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="SplashTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowBackground">@drawable/splash_background</item>
+    </style>
+
+    <style name="Widget" />
+
+    <style name="Widget.TextInputLayout">
+        <item name="android:layout_height">@dimen/wrap_content</item>
+        <item name="android:layout_width">@dimen/input_width</item>
+        <item name="android:textColorHint">@color/color_input_hint</item>
+    </style>
+
+    <style name="Widget.TextEdit">
+        <item name="android:layout_height">@dimen/match_parent</item>
+        <item name="android:layout_width">@dimen/match_parent</item>
+        <item name="android:textColorHighlight">@color/color_text_highlight</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColorHint">@color/color_input_hint</item>
+        <item name="android:background">@drawable/state</item>
+        <item name="android:textColor">@color/color_text</item>
+        <item name="android:padding">@dimen/text_padding</item>
+    </style>
+
+    <style name="ButtonStyle" parent="Base.Widget.AppCompat.Button.Colored">
+        <item name="colorButtonNormal">@color/colorAccent</item>
+    </style>
+
+</resources>

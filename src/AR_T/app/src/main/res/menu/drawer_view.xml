@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+
+        <item
+            android:id="@+id/animations"
+            android:icon="@drawable/ic_camera_black_24dp"
+            android:title="@string/animated_learning"/>
+
+        <item
+            android:id="@+id/quizzes"
+            android:icon="@drawable/ic_question_answer_black_24dp"
+            android:title="@string/quizzes"/>
+
+        <item
+            android:id="@+id/classroom"
+            android:icon="@drawable/ic_school_black_24dp"
+            android:title="@string/classroom"/>
+
+        <item
+            android:id="@+id/ar_topics"
+            android:icon="@drawable/ic_class_black_24dp"
+            android:title="@string/ar_topics"/>
+
+        <item
+            android:id="@+id/augnemtedImages"
+            android:icon="@drawable/ic_image_black_24dp"
+            android:title="@string/augmented_images"/>
+
+        <item
+            android:id="@+id/profile"
+            android:icon="@drawable/ic_person_black_24dp"
+            android:title="@string/my_profile" />
+
+        <item
+            android:id="@+id/settings"
+            android:icon="@drawable/ic_settings_black_24dp"
+            android:title="@string/settings" />
+
+    </group>
+
+    <group>
+
+        <item
+            android:id="@+id/logout"
+            android:icon="@drawable/logoutblack"
+            android:title="@string/logout" />
+
+    </group>
+
+</menu>

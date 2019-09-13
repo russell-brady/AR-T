@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ar_models.ArUploadActivity">
+
+    <fragment
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/sceneform_fragment"
+        android:name="com.arproject.russell.ar_t.ar_models.CustomArFragment" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/clear_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_delete_black_24dp"
+        android:layout_gravity="bottom|start"
+        android:layout_marginBottom="20dp"
+        android:layout_marginStart="20dp"/>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/resolve_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:src="@drawable/ic_cloud_download_black_24dp"
+        android:layout_gravity="bottom|end"
+        android:layout_marginBottom="20dp"
+        android:layout_marginEnd="20dp"/>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/host_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:src="@drawable/ic_cloud_upload_black_24dp"
+        android:layout_gravity="bottom|end"
+        android:layout_marginBottom="20dp"
+        android:layout_marginEnd="20dp"/>
+
+    <ImageView
+        android:id="@+id/takePhoto"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/take_photo"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_marginBottom="20dp"
+        android:contentDescription="@string/take_photo" />
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/anchorIdButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/state"
+        android:textColor="@color/white"
+        android:layout_gravity="top|end"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:padding="5dp"
+        android:backgroundTint="@color/colorPrimary"/>
+
+    <android.support.v4.widget.ContentLoadingProgressBar
+        android:id="@+id/ar_progress_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:layout_gravity="center"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_centerInParent="true" />
+
+</FrameLayout>

@@ -1,0 +1,15 @@
+*.iml
+.gradle
+/src/AR_T/local.properties
+/src/AR_T/.idea/caches/build_file_checksums.ser
+/src/AR_T/.idea/libraries
+/src/AR_T/.idea/modules.xml
+/src/AR_T/.idea/workspace.xml
+/src/AR_T/.idea/*
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+/src/nodejs_restapi/node_modules/*
+/src/nodejs_restapi/uploads/*
+/src/nodejs_restapi/assignmentSubmissions/*

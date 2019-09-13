@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="?attr/themeColorBackground"
+    android:clickable="true"
+    android:focusable="true">
+
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/arModelsSwipeRefresh"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/arModelsRecyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical" />
+
+    </android.support.v4.widget.SwipeRefreshLayout>
+
+    <FrameLayout
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="bottom|end">
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/resolve_anchor"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/ic_cloud_queue_black_24dp"
+        android:layout_margin="@dimen/fab_margin"/>
+
+    </FrameLayout>
+
+</FrameLayout>

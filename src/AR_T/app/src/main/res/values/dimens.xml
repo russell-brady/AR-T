@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <item name="match_parent" format="integer" type="dimen">-1</item>
+    <item name="wrap_content" format="integer" type="dimen">-2</item>
+
+    <!-- LOGIN AND SIGN-UP -->
+    <dimen name="login_padding_top">56dp</dimen>
+    <dimen name="login_padding">24dp</dimen>
+
+    <!-- Nav Drawer -->
+    <dimen name="nav_drawer_header">176dp</dimen>
+    <dimen name="circle_imageview">80dp</dimen>
+
+    <!-- PADDINGS AND MARGINS -->
+    <dimen name="xxx_small_padding">2dp</dimen>
+    <dimen name="small_padding">8dp</dimen>
+    <dimen name="medium_padding">12dp</dimen>
+    <dimen name="large_padding">20dp</dimen>
+
+    <dimen name="small_margin">8dp</dimen>
+
+    <!-- Topic Details Fragment -->
+    <dimen name="detail_backdrop_height">256dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="nav_header_vertical_spacing">8dp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="appbar_padding_top">8dp</dimen>
+
+    <dimen name="input_width">220dp</dimen>
+    <dimen name="text_padding">16dp</dimen>
+    <dimen name="dp40">40dp</dimen>
+    <dimen name="tap_target_menu_max_width">350dp</dimen>
+    <dimen name="card_padding">40dp</dimen>
+    <dimen name="nav_drawer_email_size">16sp</dimen>
+    <dimen name="nav_drawer_name_size">14sp</dimen>
+
+</resources>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.preference.PreferenceScreen
+    android:id="@+id/prefScreen"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <android.support.v7.preference.PreferenceCategory
+        android:title="General">
+
+        <android.support.v7.preference.Preference
+            android:key="theme"
+            android:title="Choose Theme"
+            android:summary="Choose a theme for the application"
+            android:defaultValue="true" />
+
+        <android.support.v7.preference.Preference
+            android:key="showcase"
+            android:title="Showcase View"
+            android:summary="Turn on showcase view mode"
+            android:defaultValue="true" />
+
+        <android.support.v7.preference.Preference
+            android:key="guidedtour"
+            android:title="Guided Tour"
+            android:summary="Turn on the guided tour"
+            android:defaultValue="true" />
+
+    </android.support.v7.preference.PreferenceCategory>
+
+    <android.support.v7.preference.PreferenceCategory
+        android:title="Manage Account">
+
+        <android.support.v7.preference.Preference
+            android:key="logout"
+            android:title="Log Out"
+            android:summary="Choose a theme for the application"
+            android:defaultValue="true" />
+
+        <android.support.v7.preference.Preference
+            android:key="deleteaccount"
+            android:title="Delete Account"
+            android:summary="Choose a theme for the application"
+            android:defaultValue="true" />
+
+
+    </android.support.v7.preference.PreferenceCategory>
+
+    <android.support.v7.preference.PreferenceCategory
+        android:title="Date and Time">
+
+        <android.support.v7.preference.ListPreference
+            android:key="dateKey"
+            android:title="Date Preference"
+            android:summary="Choose a date format"
+            android:defaultValue="1"
+            android:entries="@array/dateArray"
+            android:entryValues="@array/dateValues"/>
+
+        <android.support.v7.preference.ListPreference
+            android:key="timeKey"
+            android:title="Time Preference"
+            android:summary="Choose a time format"
+            android:defaultValue="1"
+            android:entries="@array/timeArray"
+            android:entryValues="@array/timeValues"/>
+
+    </android.support.v7.preference.PreferenceCategory>
+
+</android.support.v7.preference.PreferenceScreen>

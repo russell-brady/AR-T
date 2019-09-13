@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:fitsSystemWindows="true"
+    android:background="@drawable/color_gradient"
+    tools:context=".login.LoginActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/login_padding_top"
+        android:paddingLeft="@dimen/login_padding"
+        android:paddingRight="@dimen/login_padding"
+        android:gravity="center_horizontal">
+
+        <View
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content" />
+
+        <ImageView
+            android:id="@+id/loginImage"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/logo1noname"
+            android:layout_marginBottom="@dimen/small_margin"
+            android:contentDescription="@string/login"/>
+
+        <!-- Email Label -->
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/emailInputLayout"
+            style="@style/Widget.TextInputLayout"
+            android:layout_marginTop="30dp"
+            android:layout_height="wrap_content"
+            android:layout_width="@dimen/input_width">
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/input_email"
+                style="@style/Widget.TextEdit"
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:inputType="textEmailAddress"
+                android:hint="@string/studentEmail"/>
+        </android.support.design.widget.TextInputLayout>
+
+        <!-- Password Label -->
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/passwordInputLayout"
+            style="@style/Widget.TextInputLayout"
+            android:layout_marginTop="15dp"
+            app:passwordToggleTint="@color/color_input_hint"
+            android:layout_height="wrap_content"
+            android:layout_width="@dimen/input_width">
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/login_password"
+                style="@style/Widget.TextEdit"
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:inputType="textPassword"
+                android:hint="@string/studentPassword"/>
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="40sp"
+            android:layout_marginTop="50dp"
+            android:textAllCaps="true"
+            android:textStyle="bold"
+            android:textColor="@color/color_label"
+            android:text="@string/login"/>
+
+        <TextView
+            android:id="@+id/link_signup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="@dimen/login_padding"
+            android:text="@string/no_account"
+            android:textColor="#FFF"
+            android:textStyle="bold"
+            android:textSize="20sp"/>
+
+    </LinearLayout>
+</ScrollView>

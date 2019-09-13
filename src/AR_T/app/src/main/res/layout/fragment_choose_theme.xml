@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".theme.ChooseThemeFragment"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/blueTheme"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/blue_theme"
+            android:textColor="@color/white"
+            android:layout_marginTop="@dimen/medium_padding"
+            android:background="@color/colorPrimary"/>
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/orangeTheme"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/orange_theme"
+            android:textColor="@color/white"
+            android:layout_marginTop="@dimen/medium_padding"
+            android:background="@color/colorOrange"/>
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/pinkTheme"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/pink_theme"
+            android:textColor="@color/white"
+            android:layout_marginTop="@dimen/medium_padding"
+            android:background="@color/pinkPrimary"/>
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/blackTheme"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/black_theme"
+            android:textColor="@color/white"
+            android:layout_marginTop="@dimen/medium_padding"
+            android:background="@color/blackPrimary"/>
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/mintTheme"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/mint_theme"
+            android:textColor="@color/white"
+            android:layout_marginTop="@dimen/medium_padding"
+            android:background="@color/mintPrimary"/>
+
+
+    </LinearLayout>
+
+
+
+
+</FrameLayout>

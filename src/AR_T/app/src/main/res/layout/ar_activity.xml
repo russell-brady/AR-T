@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <fragment
+        android:id="@+id/sceneform_fragment"
+        class="com.google.ar.sceneform.ux.ArFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <TextView
+        android:id="@+id/find_surface"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tap_to_detect"
+        android:textColor="@color/white"
+        android:padding="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_gravity="center_horizontal|bottom"/>
+
+
+
+</FrameLayout>
